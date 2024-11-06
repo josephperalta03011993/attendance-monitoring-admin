@@ -1,0 +1,53 @@
+.top-container {
+    background: #4CC9FE;
+}
+
+.form-and-camera-content {
+    display: flex;
+    justify-content: space-between; /* Makes space between form and camera */
+    align-items: flex-start; /* Aligns the top of both form and camera */
+}
+
+/* Camera Capture Section */
+#camera {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px; /*Adjust width as needed */
+    margin-left: 20px; /*Spacing from the form */
+}
+ 
+#camera video {
+    align-content: space-between;
+    width: 100%;
+    border: 2px solid #bdc3c7;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.p16 {
+    padding: 1rem;
+}
+
+.pl16 {
+    padding-left: 1rem;
+}
+
+.pr16 {
+    padding-right: 1rem;
+}
+
+.pt16 {
+    padding-top: 1rem;
+}
+
+.pb16 {
+    padding-bottom: 1rem;
+}
+
+#department {
+    background-color: #2196F3!important;
+    color: white;
+    padding: .5rem;
+}
