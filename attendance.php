@@ -68,6 +68,8 @@
             <th>Date</th>
             <th>Time In</th>
             <th>Time Out</th>
+            <th>Status</th>
+            <th>Notes</th>
         </thead>
       <?php
         $qry = mysqli_query($conn, "SELECT a.*, u.name 
@@ -92,6 +94,7 @@
                         } 
                     ?>
                 </td>
+                <td><?php echo $row['notes']; ?></td>
               </tr>
       <?php
           }
